@@ -35,6 +35,11 @@ $(".materia").click(function(){
 
 });
 
+$("label").click(function(){
+  
+
+})
+
 $('#insert').click(function(){
   var info = '';
   for(var i = 0; i<list.length; i++){

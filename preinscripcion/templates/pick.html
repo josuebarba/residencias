@@ -3,13 +3,29 @@
 {% block content %}
 {% if not status%}
   <br>
+  <div class="contentItems">
   {% for m in object_list %}
-    <input class="materia" type="checkbox" value='{{m.id_materia}}'> {{m.nombre}} <br>
-    <br>
+  <div style = "margin-top:5px;"class="semestre">
+    <h1>{{m.semestre}}</h1>
+  </div>
+  <div class="item">
+    <input class="materia" type="checkbox" value='{{m.id_materia}}'>
+    <label for="materia">{{m.nombre}}</label>
+  </div>
+
+
+  <!-- <div class="checkboxFour">
+    <input type ="checkbox" class = "materia" value="{{m.id_materia}}" id="checkboxFourInput">
+    <label for="checkboxFourInput">{{m.nombre}}</label>
+  </div>
+  <br> -->
+  <!-- <p id="label"></p> -->
+
   {% endfor %}
-  <input id="insert" type="submit" value="insert" />
-  <br>
-  <p id="label"></p>
+  <input id="insert" type="submit" value="Submit" />
+
+  </div>
+
 {% else %}
 
   <div class="all">
