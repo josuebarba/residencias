@@ -1,0 +1,86 @@
+.all{
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+body{
+  font-family: 'Roboto', serif;
+}
+body{
+  background: rgb(35, 38, 43);
+  height: 100vh;
+}
+.content{
+  position: relative;
+  width: 42%;
+  height: 140px;
+  background: green;
+  /*margin: 0 auto;*/
+  float: left;
+  margin-left: 5%;
+  margin-top: 2.5%;
+/*background: -moz-linear-gradient(-45deg, rgba(50,100,150,1) 0%, rgba(16,32,48,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(50,100,150,1)), color-stop(100%, rgba(16,32,48,1)));
+background: -webkit-linear-gradient(-45deg, rgba(50,100,150,1) 0%, rgba(16,32,48,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(50,100,150,1) 0%, rgba(16,32,48,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(50,100,150,1) 0%, rgba(16,32,48,1) 100%);*/
+  background: linear-gradient(180deg, rgba(17, 89, 124, 1) 0%, rgba(25, 53, 72, 1) 100%);
+}
+.semestre{
+  position: absolute;
+  width: auto;
+  padding-top: 20px;
+  padding-right: 40px;
+  height: auto;
+  right: 0px;
+  /*text-align: center;*/
+  background: rgb(50, 115, 0);
+}
+.semestre h1{
+  font-size: 3em;
+  color: White;
+  padding: 0;
+  margin: 0;
+  transform: translate(calc(50% + 7.5px),-10px);
+}
+.content .nombre{
+  position: absolute;
+  font-size: 2em;
+  color: White;
+  padding: 10px;
+}
+
+.content-info{
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  /*background: rgba(28, 158, 186, 0.69);*/
+  height: 40%;
+}
+.content-info div{
+  position: relative;
+  float: left;
+  text-align: center;
+  width: 75px;
+  height: 100%;
+
+}
+.content-info div h2{
+  font-size: 2.5em;
+  padding-top: 5px;
+  margin: 0;
+
+}
+.creditos{
+  background: rgb(70, 0, 0);
+  color: rgba(255, 255, 255, 0.8);
+}
+.teoria{
+  background: rgb(70, 50, 0);
+  color: rgba(255, 255, 255, 0.7);
+
+}
+.practica{
+  background: rgb(70, 70, 10);
+  color: rgba(255, 255, 255, 0.7);
+}
